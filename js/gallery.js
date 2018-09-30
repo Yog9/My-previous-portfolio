@@ -46,12 +46,12 @@ var galleryItems = [
   },
   {
     id: 5,
-    imgSrc: 'images/formhtml.png',
-    imgAlt: 'Image of the Web Form project',
-    heading: 'Web Form',
+    imgSrc: 'images/desktop-view.jpg',
+    imgAlt: 'Image of the Registration Form project',
+    heading: 'Registration Form',
     introduction: 'In this project, I built a mobile first, responsive registration form using a variety of HTML form input types and attributes. The form was enhanced using HTML5 validation properties to make sure required fields are filled out.Utilizing CSS property transition and pseudo-states,I added effects for highlighting the look of the form fields when they are focused on .',
-    website: 'https://yog9.github.io/Interactive-form--website/',
-    gitLink: 'https://github.com/Yog9'
+    website: 'https://yog9.github.io/Registration-Form/',
+    gitLink: 'https://github.com/Yog9/Registration-Form'
   }
 
   ];
