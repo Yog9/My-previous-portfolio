@@ -13,7 +13,7 @@ Click the demo link or clone/download the repository on your local machine and o
 ### Built With
 * Bootstrap 4
 * CSS3
-* JQUERY
+* jQuery
 * Particle.js library
 * Wow.js plugin (To reveal animations when the user scrolls.)
 
