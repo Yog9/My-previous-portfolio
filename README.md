@@ -4,6 +4,7 @@
 
 [Demo Front-End Developer Portfolio Here](https://yog9.github.io/)
 
+### Summary
 My full front-end portfolio with web development skills, examples of my projects, contact links, and a bit about me 
 
 ### Getting Started
