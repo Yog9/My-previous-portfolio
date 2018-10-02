@@ -7,7 +7,7 @@
 My full front-end portfolio with web development skills, examples of my projects, contact links, and a bit about me 
 
 ### Getting Started
-    Click the demo link or clone/download the repository on your local machine and open the index.html file with a browser.
+Click the demo link or clone/download the repository on your local machine and open the index.html file with a browser.
   
 
 ### Built With
@@ -20,4 +20,5 @@ My full front-end portfolio with web development skills, examples of my projects
 
 ### Features
 **1. Responsive Design**
+
 **2. Simple, elegant design with functionality and usability as the top concern**
