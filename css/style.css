@@ -464,7 +464,7 @@ transform: translate(-50%, -50%);
 .buttons
 {
   border-radius: 15px;
-  padding: 5px 20px 5px 20px;
+  padding: 5px;
   outline: none;
   color:white;
   cursor:pointer;
@@ -533,6 +533,7 @@ a {
     width:85%;
 
   }
+
   .text
   {
 
@@ -578,6 +579,11 @@ a {
   .copyright {
     font-size:15px;
   }
+  .buttons
+{
+  border-radius: 15px;
+  padding: 5px 20px 5px 20px;
+}
 }
 /* ----------------------------- MEDIA QUERIES 1024 PIXELS ---*/
 @media screen and (min-width: 1024px) {
@@ -706,4 +712,8 @@ grid-row-gap:20px;
  .copyright {
     font-size:15px;
   }
+  .buttons
+{
+  border-radius: 15px;
+  padding: 5px 20px 5px 20px;
 }
