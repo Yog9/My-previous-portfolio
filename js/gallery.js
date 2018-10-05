@@ -88,8 +88,8 @@ var galleryItems = [
     imgAlt: 'Image of the Profile Page project',
     heading:'Profile Page',
     introduction: 'Profile Page is one of the first website that I built using HTML5 and CSS3.It uses Responsive Design principals, CSS transforms and CSS3 pseudo elements',
-    website: 'https://yog9.github.io/Profile-Page/',
-    gitLink: 'https://github.com/Yog9/Profile-Page'
+    website: 'https://yog9.github.io/My-Personal-Profile-Page',
+    gitLink: 'https://github.com/Yog9/My-Personal-Profile-Page'
   },
   {
     id: 10,
