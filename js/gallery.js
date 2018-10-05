@@ -102,7 +102,7 @@ var galleryItems = [
   },
   {
     id: 11,
-    imgSrc: 'images/desktop-view.jpg',
+    imgSrc: 'images/registration-form.png',
     imgAlt: 'Image of the Registration Form project',
     heading: 'Registration Form',
     introduction: 'Registration Form is a mobile first, responsive form built using a variety of HTML form input types and attributes. The form was enhanced using HTML5 validation properties, CSS3 transitions and pseudo-states.',
