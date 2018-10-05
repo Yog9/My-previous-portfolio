@@ -513,6 +513,7 @@ a {
   font-family: 'Raleway', sans-serif;
     letter-spacing: 2px;
   padding-bottom: 40px;
+  font-size: 10px;
 }
 .nav.navbar-nav {
 	display: flex;
@@ -572,6 +573,9 @@ a {
     font-size: 25px;
     width:100%;
 
+  }
+  .copyright {
+    font-size:15px;
   }
 }
 /* ----------------------------- MEDIA QUERIES 1024 PIXELS ---*/
@@ -698,4 +702,7 @@ grid-row-gap:20px;
   margin-left: 40px;
 
 }
+ .copyright {
+    font-size:15px;
+  }
 }
