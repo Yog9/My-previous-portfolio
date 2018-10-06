@@ -48,6 +48,7 @@ a:hover{
     background-size: cover;
     background-color:#1b0149/* #522e92*/;
     position:relative;
+    cursor:pointer;
 
 }
 .navbar
