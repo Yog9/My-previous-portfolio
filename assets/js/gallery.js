@@ -43,8 +43,8 @@ var galleryItems = [
     imgAlt: 'Image of the Wheel of Success project',
     heading: 'Wheel of Success.',
     introduction: 'Wheel Of Sucess is a browser version of a word guessing game. It uses Javascript to generate a random phrase that player tries to guess by clicking the letters from an onscreen keyboard.',
-    website: 'https://yog9.github.io/game-app-show/',
-    gitLink: 'https://github.com/Yog9/game-app-show'
+    website: 'https://yog9.github.io/Wheel-Of-Sucess/',
+    gitLink: 'https://github.com/Yog9/Wheel-Of-Sucess'
   },
   {
     id: 5,
