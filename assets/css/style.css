@@ -21,18 +21,23 @@ a:hover{
     right: 2vw;
     height: 40px;
     width: 40px;
-    border-radius: 5%;
-    background: black;
+    border-radius: 20%;
+    background: #10CC75;
     color: #444;
     font-size: 2em;
     font-weight: 700;
     line-height: 40px;
     text-align: center;
-    
+    /*box-shadow: 2px 2px 5px rgba(0,0,0,0.5);*/
 }
+
 .up-arrow
 {
-  fill:white;
+  fill:#F16529;
+}
+.up-arrow:hover
+{
+  fill:black;
 }
  
 
@@ -622,9 +627,24 @@ a {
     width:100%;
 
   }
+  .copyright
+  {
+    font-size:15px;
+  }
+  .totop
+{
+  width:60px;
+  height:60px;
+}
+
 }
 /* ----------------------------- MEDIA QUERIES 1024 PIXELS ---*/
 @media screen and (min-width: 1024px) {
+.totop
+{
+  width:60px;
+  height:60px;
+}
 
   .fname{
     font-size: 80px;
@@ -718,6 +738,7 @@ grid-row-gap:20px;
 {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
+   cursor: pointer;
 }
 .modal_content
 {
@@ -725,6 +746,7 @@ grid-row-gap:20px;
   height: 70%;
   max-height: 30vh;
     overflow: auto; /* Enable scroll if needed */
+
 }
 .modal-img
 {
@@ -748,4 +770,8 @@ grid-row-gap:20px;
   margin-left: 40px;
 
 }
+.copyright
+  {
+    font-size:15px;
+  }
 }

@@ -73,4 +73,24 @@ var modal= document.querySelector(".modal1");
       });
     } // End if
   });
+
+
+  /*When Scrolled more then 100 show arrow up */
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height >=100) {
+        $('.totop').fadeIn();
+    } else {
+      //else remove arrow up
+        $('.totop').fadeOut();
+    }
+});
+//when  arrow up is click go to the top
+    $(".totop").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+
 });//closed document
