@@ -6,17 +6,6 @@ a:hover{
 
 }
 
-
-
-
-.navbar-brand {
-  font-family: 'Allerta Stencil', sans-serif;
-  font-size: 28px;
-  padding-left: 5px;
-  letter-spacing: 1px;
-  border:2px solid black;
-}
-
 #particles-js{
  height:90vh;
   overflow: hidden;
@@ -37,7 +26,7 @@ a:hover{
   .navbar a:hover{
     color: #fff;
    }
-  .nav-link,.navbar-brand{
+  .nav-link{
     color:black;
   }
   .navbar-toggler-icon:focus
@@ -118,15 +107,6 @@ border:black 2px solid;
   font-family: "Allerta Stencil", sans-serif;
   margin-bottom: 2%;
 }
-.about_text
-{
-    width:68%;
-    left: 25%;
-    margin-bottom: 10%;
-    top: 50%;
-    position: absolute;
-    text-align: center;
-}
 
 
 .about-me-para
@@ -160,11 +140,6 @@ padding-bottom: 30px;
 {
   font-size: 20px;
   font-family: 'Raleway', sans-serif;
-}
-.about-span
-{
-  font-style: italic;
-  color:black;
 }
 .profile-img
 {
@@ -271,7 +246,7 @@ border:3px solid #949498;
 *:focus {
     outline: 0 !important;
 }
-.learn-more:hover,.button:active
+.learn-more:hover
 {
   color:white;
   background-color: #8C43FF;
@@ -323,24 +298,6 @@ grid-gap:30px;
   height:100%;
 }
 
-.card
-{
-  border:none;
-}
-.portfolio-card
-{
-  background-color: transparent;
-}
-.img-responsive
-{
-  width:100%;
-  height:100%;
-}
-.contact_form {
-  text-align: center;
-  color: black;
-}
-
 
 .contact {
   background-color:#585A57 /*#3454D1/*#F45B69*/;
@@ -358,13 +315,7 @@ grid-gap:30px;
   text-shadow: 3px 3px 10px rgba(150, 150, 150, 1);
   font-family: "Allerta Stencil", sans-serif;
 }
-.resume-link
-{
-
-  color:#4B0082/*darkslateblue*/;
-  font-weight: 700;
-}
-#responsive{
+.responsive{
     color:#4B0082/*darkslateblue*/;
       font-weight: 700;
       cursor:pointer;
@@ -374,7 +325,8 @@ grid-gap:30px;
     color: #4B0082;
     background-color: transparent;
     border-radius: 20px;
-    font-family: "Lato", sans-serif;
+    font-family: 'Raleway', sans-serif;
+    /*font-family: "Lato", sans-serif;*/
     font-size: .9em;
     margin: 0 auto;
     padding: 5px;
@@ -387,44 +339,6 @@ grid-gap:30px;
 }
 
 /************** MODAL CSS***************/
-.modal-img
-{
-  width: 90%;
-  height: 80%;
-    margin-top:10px;
-border: 3px solid #fff;
-  margin-bottom: 10px;
-  margin-left:20px;
-}
-.modal_content
-{
-
-  color:white;
-  font-family: 'Raleway', sans-serif;
-
-    letter-spacing: 2px;
-
-background-color: rgba(61, 76, 81, 0.9);
-width: 90%;
-
-max-width: 716px;
-
-min-height: 357px;/*440px;*/
-
-position: fixed;
-top: 50%;
-left: 50%;
-border-radius: 25px;
-border: 2px solid #fff;
-z-index: 3;
-transform: translate(-50%, -50%);
-}
-
-.project_name{
-  font-size:20px;
-  font-weight: 300;
-  text-align: center;
-}
 
 .modal1
 {
@@ -442,43 +356,6 @@ transform: translate(-50%, -50%);
      background-color: rgba(0,0,0,0.4); /* Black w/ opacity*/
       display:none;
 
-}
-.grid-modal1
-{
-  display:grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr ;
-}
-.desc
-{
-  display: inline-block;
-  text-align: center;
-  font-size:10px;
-}
-
-#run_button
-{
-  margin-left: 90px;
-  cursor:pointer;
-
-}
-
-.buttons
-{
-  border-radius: 15px;
-  padding: 5px;
-  outline: none;
-  color:white;
-  cursor:pointer;
-  background-color: #8C43FF;
-}
-.buttons:hover{
-  transform:scale(1.2);
-}
-.button_link
-{
-  color:white;
-  outline:none;
 }
 
 .footer-icons {
@@ -503,20 +380,6 @@ a {
   text-decoration: none;
 }
 
-.email, .email-text {
-  text-align: center;
-  font-size: 22px;
-  font-weight: 500;
-  letter-spacing: 2px;
-  color: black;
-  cursor: pointer;
-}
-
-.email-text:hover {
-  color: white;
-  text-decoration: none;
-}
-
 .copyright {
   text-align: center;
   margin-bottom: 0;
@@ -525,11 +388,6 @@ a {
     letter-spacing: 2px;
   padding-bottom: 40px;
   font-size: 10px;
-}
-.nav.navbar-nav {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
 }
 /* ----------------------------- MEDIA QUERIES 768 PIXELS ---*/
 @media (min-width: 768px) {
@@ -589,11 +447,6 @@ a {
   .copyright {
     font-size:15px;
   }
-  .buttons
-{
-  border-radius: 15px;
-  padding: 5px 20px 5px 20px;
-}
 }
 /* ----------------------------- MEDIA QUERIES 1024 PIXELS ---*/
 @media screen and (min-width: 1024px) {
@@ -678,52 +531,13 @@ grid-row-gap:20px;
   font-size: 20px;
 }
 /***MODAL CSS****/
-.desc
-{
-  /*width:90%;*/
-  font-size: 15px;
-    display:inline-block;
-}
 .modal1
 {
   width: 100%; /* Full width */
   height: 100%; /* Full height */
  
 }
-.modal_content
-{
-  width:61%;
-  height: 70%;
-  max-height: 30vh;
-    overflow: auto; /* Enable scroll if needed */
-}
-.modal-img
-{
-  width: 275px;
-  height: 275px;
-    margin-top:40px;
-}
-.project_name
-{
-  margin-top:40px;
-  margin-left: 16px;
-}
-.grid-modal1
-{
-  display:grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr;
-}
-#run_button
-{
-  margin-left: 40px;
-
-}
  .copyright {
     font-size:15px;
   }
-  .buttons
-{
-  border-radius: 15px;
-  padding: 5px 20px 5px 20px;
 }

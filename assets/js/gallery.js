@@ -12,7 +12,7 @@ var galleryItems = [
   },
   {
     id: 1,
-    imgSrc: 'assets/images/video player.png',
+    imgSrc: 'assets/images/videoplayer.png',
     imgAlt: 'Image of the Interactive Video Player project',
     heading:'Interactive Video Player',
     introduction: 'Interactive Video Player is a  custom video player that uses JavaScript to highlight the transcript below the video as the video progresses.Also when the user clicks any part of the transcript it takes them to the appropriate place in the video.',
@@ -22,7 +22,7 @@ var galleryItems = [
   {
     id: 2,
     imgSrc: 'assets/images/employee.jpg',
-    imgAlt: 'Image of Employee Directory',
+    imgAlt: 'Image of EmployeeDirectory',
     heading: 'Employee Directory',
     introduction:'Employee Directory uses Random user generator API to generate random users and their details. Clicking the user would popup a modal with more information.This project included Ajax calls using jQuery and CSS. ',
     website: 'https://yog9.github.io/Employee-Directory/',
@@ -39,7 +39,7 @@ var galleryItems = [
   },
   {
     id: 4,
-    imgSrc: 'assets/images/wheel of sucess.jpg',
+    imgSrc: 'assets/images/wheelofsucess.jpg',
     imgAlt: 'Image of the Wheel of Success project',
     heading: 'Wheel of Success.',
     introduction: 'Wheel Of Sucess is a browser version of a word guessing game. It uses Javascript to generate a random phrase that player tries to guess by clicking the letters from an onscreen keyboard.',
@@ -48,7 +48,7 @@ var galleryItems = [
   },
   {
     id: 5,
-    imgSrc: 'assets/images/photo gallery.png',
+    imgSrc: 'assets/images/photogallery.png',
     imgAlt: 'Image of the Photo Gallery project',
     heading: 'Photo Gallery',
     introduction: 'Photo Gallery is an interactive photo gallery built using JavaScript and a jQuery plugin for a lightbox. It also has a search box funtionality that filters the photos in real-time as the user types, and only display photos that match the search.',
