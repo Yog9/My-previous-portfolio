@@ -7,6 +7,8 @@ a:hover{
 }
 
 
+
+
 .navbar-brand {
   font-family: 'Allerta Stencil', sans-serif;
   font-size: 28px;
@@ -487,6 +489,14 @@ transform: translate(-50%, -50%);
   justify-content: space-around;
   margin: 0 auto 40px/*40px auto 60px*/;
   width: 45%;
+}
+.social-links
+{
+  fill:white;
+}
+
+.social-links:hover  { 
+  fill: #111;
 }
 
 a {
