@@ -17,7 +17,7 @@ var modal= document.querySelector(".modal1");
 					var live = galleryItems[i].website;
 					var github = galleryItems[i].gitLink;
 					console.log(img);
-					modal_html+='  <div class="modal_content mx-auto">';
+					modal_html+='  <div class="modal_content animated slideInDown mx-auto">';
           modal_html+='<div class="grid-modal1">';
           modal_html+='<div class="col-grid-modal-item">';
           modal_html+='<img src="'+img+'"class="modal-img" alt ="'+img_alt+'">';
