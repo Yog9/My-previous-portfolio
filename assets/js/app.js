@@ -84,6 +84,7 @@ $(document).keyup(function(e) {
   /*When Scrolled more then 100 show arrow up */
 $(window).scroll(function() {
     var height = $(window).scrollTop();
+
     if (height > 100) {
         $('.totop').fadeIn();
     } else {

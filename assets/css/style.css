@@ -19,6 +19,7 @@ a:hover{
   position: fixed;
     bottom: 2vh;
     right: 2vw;
+    display:none;
     height: 40px;
     width: 40px;
     border-radius: 20%;
@@ -438,15 +439,14 @@ border: 3px solid #fff;
     letter-spacing: 2px;
 
 background-color: rgba(61, 76, 81, 0.9);
-width: 60%;
+width: 80%;
 
 max-width: 716px;
 height: 100%;
 min-height: 430px;
 
 position: fixed;
-top: 50%;
-left: 23%;
+left: 13%;
 border-radius: 25px;
 border: 2px solid #fff;
 z-index: 3;
@@ -464,7 +464,7 @@ transform: translate(-50%, -50%);
 }
 .modal1
 {
-
+    cursor: pointer;
     position: fixed; /* Stay in place */
      z-index: 1; /* Sit on top */
     padding-top: 100px; /* Location of the box */
@@ -581,6 +581,9 @@ a {
     width:90%;
     font-size: 18px;
   }
+  .modal_content{
+    left:23%;
+  }
   .container-portfolio-grid
   {
     width:85%;
@@ -637,6 +640,7 @@ a {
   width:60px;
   height:60px;
 }
+
 
 }
 /* ----------------------------- MEDIA QUERIES 1024 PIXELS ---*/
@@ -745,6 +749,7 @@ grid-row-gap:20px;
 {
   width:90%;
   height: 70%;
+  left:23%;
   max-height: 30vh;
     overflow: auto; /* Enable scroll if needed */
 
