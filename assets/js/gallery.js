@@ -57,12 +57,12 @@ var galleryItems = [
   },
   {
     id: 6,
-    imgSrc: 'assets/images/quote.png',
-    imgAlt: 'Image of the Quote Generator project',
-    heading:'Quote Generator',
-    introduction: 'Quote Generator is website built using HTML5, CSS3 and Javascript which shows new quotes and also allows the user to tweet out the quote.',
-    website: 'https://yog9.github.io/Quote-Generator/',
-    gitLink: 'https://github.com/Yog9/Quote-Generator'
+    imgSrc: 'assets/images/portfolio.png',
+    imgAlt: 'Image of the Portfolio project',
+    heading:'Portfolio',
+    introduction: 'My full front-end portfolio with web development skills, examples of my projects, contact links, and a bit about me ',
+    website: 'https://yog9.github.io/',
+    gitLink: 'https://github.com/Yog9/Yog9.github.io'
   },
   {
     id: 7,

@@ -36,7 +36,7 @@ a:hover{
 {
   fill:#F16529;
 }
-.up-arrow:hover
+.up-arrow:hover,.up-arrow:focus
 {
   fill:black;
 }
@@ -374,8 +374,26 @@ grid-gap:30px;
   text-align: center;
   color: black;
 }
-
-
+.prev{
+  position:absolute;
+    right: 50%;
+    top:90%;
+    font-size: 40px;
+}
+ .next{
+    position:absolute;
+    left: 65%;
+    top:90%;
+    font-size: 40px;
+}
+.prev:hover,.prev:focus
+{
+  color:black;
+}
+.next:hover,.next:focus
+{
+  color:black;
+}
 .contact {
   background-color:#585A57 /*#3454D1/*#F45B69*/;
   color: black;
@@ -442,10 +460,11 @@ background-color: rgba(61, 76, 81, 0.9);
 width: 80%;
 
 max-width: 716px;
-min-height: 430px;
+min-height: 460px;
 
 position: fixed;
-left: 13%;
+left: 50%;
+top:50%;
 border-radius: 25px;
 border: 2px solid #fff;
 z-index: 3;
@@ -492,7 +511,7 @@ transform: translate(-50%, -50%);
 
 #run_button
 {
-  margin-left: 90px;
+  margin-left:20%;
 
 }
 
@@ -580,9 +599,27 @@ a {
     width:90%;
     font-size: 18px;
   }
+  #run_button
+{
+  margin-left:36%;
+
+}
   .modal_content{
-    left:23%;
+    left:50%;
+    top:50%;
+    height:100%;
+
   }
+  .prev{
+  position:absolute;
+    right: 50%;
+    top:90%;
+}
+ .next{
+    position:absolute;
+    left: 55%;
+    top:90%;
+}
   .container-portfolio-grid
   {
     width:85%;
@@ -648,6 +685,18 @@ a {
 {
   width:60px;
   height:60px;
+}
+.prev{
+  position:absolute;
+    right: 30%;
+    top:70%;
+    
+}
+ .next{
+    position:absolute;
+    left: 80%;
+    top:70%;
+    
 }
 
   .fname{
@@ -748,7 +797,8 @@ grid-row-gap:20px;
 {
   width:90%;
   height: 70%;
-  left:23%;
+  left:50%;
+  top:50%;
   max-height: 30vh;
     overflow: auto; /* Enable scroll if needed */
 
