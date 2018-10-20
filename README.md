@@ -36,5 +36,8 @@ Click the demo link or clone/download the repository on your local machine and o
 
 ![](assets/images/modal.gif)
 
+**6. Increased the pagespeed insights for desktops to 83%.**
+![](assets/images/pagespeed.png)
+
 ### Coming Soon
 - [ ] Recreating the portfolio with react.
