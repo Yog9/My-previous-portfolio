@@ -1,8 +1,6 @@
-# [Yogita Verma](https://yog9.github.io/)
+# Yogita Verma
 
 ## Front-End Developer Portfolio
-
-[Demo Front-End Developer Portfolio Here](https://yog9.github.io/)
 
 ### Summary
 My full front-end portfolio with web development skills, examples of my projects, contact links, and a bit about me .
@@ -10,7 +8,7 @@ My full front-end portfolio with web development skills, examples of my projects
 ![](assets/images/portfolio.gif)
 
 ### Getting Started
-Click the demo link or clone/download the repository on your local machine and open the index.html file with a browser.
+Click the demo link or clone/download the repository on your local machine and open it with a live server to see the use of particle.js.
   
 
 ### Built With
